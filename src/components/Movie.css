@@ -1,5 +1,5 @@
 .movies {
-  margin-top: 4rem;
+  margin-top: 6rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -57,4 +57,11 @@
 .movie .movie-year {
   margin-right: 10px;
   font-size: 14px;
+}
+.movie-summary {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
